@@ -1,0 +1,18 @@
+[package]
+name = "switflake"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+parking_lot = "0.12.4"
+
+[dev-dependencies]
+criterion = "0.7.0"
+rayon = "1.11.0"
+
+[profile.bench]
+inherits = "release"
+
+[[bench]]
+name = "bench"
+harness = false

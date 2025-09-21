@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Index - Criterion.rs</title>
+    <style type="text/css">
+        body {
+            font: 14px Helvetica Neue;
+            text-rendering: optimizelegibility;
+        }
+
+        .body {
+            width: 960px;
+            margin: auto;
+        }
+
+        a:link {
+            color: #1F78B4;
+            text-decoration: none;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: 300;
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        #footer {
+            height: 40px;
+            background: #888;
+            color: white;
+            font-size: larger;
+            font-weight: 300;
+        }
+
+        #footer a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        #footer p {
+            text-align: center
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #888;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <h2>Criterion.rs Benchmark Index</h2>
+        See individual benchmark pages below for more details.
+        <ul>
+            <li><a href="../burst/report/index.html">burst</a></li>
+            
+            <ul>
+                <li><a href="../burst/bucket_burst_1000/report/index.html">bucket_burst_1000</a></li>
+                <li><a href="../burst/realtime_burst_1000/report/index.html">realtime_burst_1000</a></li>
+            </ul>
+            <li>contention</li>
+            
+            <ul>
+                <li><a href="../contention/high_contention/report/index.html">high_contention</a></li>
+            </ul>
+            <li><a href="../decompose/report/index.html">decompose</a></li>
+            <li><a href="../memory/report/index.html">memory</a></li>
+            
+            <ul>
+                <li><a href="../memory/create_bucket_large/report/index.html">create_bucket_large</a></li>
+                <li><a href="../memory/create_bucket_small/report/index.html">create_bucket_small</a></li>
+                <li><a href="../memory/create_realtime/report/index.html">create_realtime</a></li>
+            </ul>
+            <li><a href="../multi_thread/report/index.html">multi_thread</a></li>
+            
+            <ul>
+                <li>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th><a href="../multi_thread/bucket/report/index.html">bucket</a></th>
+                            <th><a href="../multi_thread/realtime/report/index.html">realtime</a></th>
+                        </tr>
+                        <tr>
+                            <th><a href="../multi_thread/2/report/index.html">2</a></th>
+                            <td><a href="../multi_thread/bucket/2/report/index.html">multi_thread/bucket/2</a></td>
+                            <td><a href="../multi_thread/realtime/2/report/index.html">multi_thread/realtime/2</a></td>
+                        </tr>
+                        <tr>
+                            <th><a href="../multi_thread/4/report/index.html">4</a></th>
+                            <td><a href="../multi_thread/bucket/4/report/index.html">multi_thread/bucket/4</a></td>
+                            <td><a href="../multi_thread/realtime/4/report/index.html">multi_thread/realtime/4</a></td>
+                        </tr>
+                        <tr>
+                            <th><a href="../multi_thread/8/report/index.html">8</a></th>
+                            <td><a href="../multi_thread/bucket/8/report/index.html">multi_thread/bucket/8</a></td>
+                            <td><a href="../multi_thread/realtime/8/report/index.html">multi_thread/realtime/8</a></td>
+                        </tr>
+                        <tr>
+                            <th><a href="../multi_thread/16/report/index.html">16</a></th>
+                            <td><a href="../multi_thread/bucket/16/report/index.html">multi_thread/bucket/16</a></td>
+                            <td><a href="../multi_thread/realtime/16/report/index.html">multi_thread/realtime/16</a></td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+            <li><a href="../single_thread/report/index.html">single_thread</a></li>
+            
+            <ul>
+                <li><a href="../single_thread/bucket/report/index.html">bucket</a></li>
+                <li><a href="../single_thread/lazy/report/index.html">lazy</a></li>
+                <li><a href="../single_thread/realtime/report/index.html">realtime</a></li>
+            </ul>
+            <li><a href="../throughput/report/index.html">throughput</a></li>
+            
+            <ul>
+                <li><a href="../throughput/bucket_10k/report/index.html">bucket_10k</a></li>
+                <li><a href="../throughput/realtime_10k/report/index.html">realtime_10k</a></li>
+            </ul>
+        </ul>
+    </div>
+    <div id="footer">
+        <p>This report was generated by
+            <a href="https://github.com/bheisler/criterion.rs">Criterion.rs</a>, a statistics-driven benchmarking
+            library in Rust.</p>
+    </div>
+</body>
+</html>
